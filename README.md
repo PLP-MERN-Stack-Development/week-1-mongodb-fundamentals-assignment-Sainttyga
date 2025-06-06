@@ -2,7 +2,19 @@
 # MongoDB Fundamentals Assignment
 
 This assignment focuses on learning MongoDB fundamentals including setup, CRUD operations, advanced queries, aggregation pipelines, and indexing.
+## Assignment Completion Status
 
+MongoDB setup (local or Atlas)  
+Created database `plp_bookstore` and collection `books`  
+Populated the collection with sample book data (`insert_books.js`)  
+Performed full CRUD operations  
+Implemented advanced queries with filtering, projection, sorting, pagination  
+Created aggregation pipelines (average price by genre, top author, books by decade)  
+Added indexes (single-field and compound) with `explain()` performance analysis  
+Submitted `queries.js` and updated README  
+Included screenshots of database in MongoDB Compass / shell
+
+---
 ## Assignment Overview
 
 You will:
@@ -30,6 +42,13 @@ You will:
 - Node.js (v18 or higher)
 - MongoDB (local installation or Atlas account)
 - MongoDB Shell (mongosh) or MongoDB Compass
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   [git clone <your-github-classroom-repo-url>
+   cd <repo-folder>](https://github.com/PLP-MERN-Stack-Development/week-1-mongodb-fundamentals-assignment-Sainttyga/edit/main/README.md)
 
 ## Submission
 
